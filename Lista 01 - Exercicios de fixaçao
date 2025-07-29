@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+01) 
 
 int main() {
     float altura=0;
