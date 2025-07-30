@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float altura=0;
+    printf("digite sua altura:");
+    scanf("%f",&altura);
+    if(altura<=1.50){
+        printf("muito baixo");
+    }
+    else if (1.50<altura && altura<=1.60){
+        printf ("baixo");
+    }
+    else if (1.60<altura && altura<=1.80){
+        printf ("mediano");
+    }
+    else if (1.80<altura){
+        printf ("alto");
+    }
+    return 0;
+}
